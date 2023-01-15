@@ -13,6 +13,8 @@ ganache-cli
 truffle compile
 truffle deploy (Check truffle-config.js there you have to see in the network the same as in ganache-cli deployed)
 yarn run dev
+In Context you have the connection to the contract there have to check the networks .
+const fundingDaoData = FundingDAO.networks["1673757235722"]; (Once you have deployed the contract you need check the network in ABI of FundinDao it's the same number as in the ABI)
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
