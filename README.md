@@ -5,9 +5,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
 # or
-yarn dev
+git clone https://github.com/viral-sangani/Funding-DAO
+cd Funding-Dao 
+yarn install
+ganache-cli
+truffle compile
+truffle deploy (Check truffle-config.js there you have to see in the network the same as in ganache-cli deployed)
+yarn run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

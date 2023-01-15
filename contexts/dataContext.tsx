@@ -106,7 +106,7 @@ export const useProviderData = () => {
 
   const loadBlockchainData = async () => {
     const web3 = window.web3;
-    const fundingDaoData = FundingDAO.networks["1639029018958"];
+    const fundingDaoData = FundingDAO.networks["1673757235722"];
     if (fundingDaoData) {
       var fundingDaoContract = await new web3.eth.Contract(
         FundingDAO.abi,
