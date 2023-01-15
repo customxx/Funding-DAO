@@ -6,7 +6,7 @@ First, run the development server:
 
 ```bash
 # or
-git clone https://github.com/viral-sangani/Funding-DAO
+git clone https://github.com/customxx/Funding-DAO.git
 cd Funding-Dao 
 yarn install
 ganache-cli
